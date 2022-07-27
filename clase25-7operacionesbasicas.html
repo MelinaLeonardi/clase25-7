@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  
+</head>
+<body>
+    <script>
+        var sumar;
+        var restar;
+        var producto;
+        var division;
+        var numero1 =prompt ("Escribe el primer numero");
+        var numero2= prompt ("Escribe el segundo numero");
+        function operaciones(numero1,numero2){
+            sumar= parseInt(numero1)  + parseInt(numero2);
+            restar= Number(numero1 - numero2);
+            producto=Number(numero1 * numero2);
+            division= Number(numero1 / numero2);
+        }
+        operaciones(numero1,numero2)
+        console.log(sumar);
+        console.log(restar);
+        console.log(producto);
+        console.log(division);
+        
+   
+document.write ("La suma de los numeros ingresados es: " + sumar + "<br>" ); 
+
+document.write ("La resta de los numeros ingresados es: " + restar + "<br>");
+
+document.write ("La multiplicacion de los numeros ingresados es: " + producto + "<br>");
+
+document.write ("La division de los numeros ingresados es: " + division + "<br>");
+
+
+    </script>
+
+    
+</body>
+</html>
